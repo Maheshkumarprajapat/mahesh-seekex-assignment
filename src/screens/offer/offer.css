@@ -1,0 +1,54 @@
+.offer {
+    padding: 50px 0px;
+}
+
+.offer-item {
+    text-align: center;
+    padding: 50px;
+}
+
+.offer-item.diamond {
+    background-color: #CCCEA7;
+}
+
+.offer-item.discount {
+    background-color: #D6BEBE;
+}
+
+.offer-image img {
+    width: 180px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.offer-content h4 {
+    font-size: 35px;
+    color: #1C1C1C;
+}
+
+.offer-content h2 {
+    font-size: 80px;
+    color: #1C1C1C;
+    margin: 20px 0px;
+}
+
+.offer-btn {
+    margin-top: 30px;
+}
+
+.offer-btn .btn {
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 6px 30px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.offer-btn .btn:hover {
+    background-color: #1C1C1C;
+    border: 1px solid transparent;
+    color: #fff;
+}

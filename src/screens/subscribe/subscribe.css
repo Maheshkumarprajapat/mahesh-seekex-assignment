@@ -1,0 +1,68 @@
+.subscribe {
+    padding-block: 50px;
+}
+
+.subscribe-box {
+    background-image: url("../../assets/images/subscribe-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.subscribe-content {
+    padding-bottom: 25px;
+}
+
+.subscribe-content h3 {
+    font-size: 35px;
+    color: var(--white-color);
+    font-family: var(--font_p-medium);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.subscribe-box form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.32);
+    margin-inline: auto;
+}
+
+.subscribe-box form .email {
+    width: 100%;
+    background: transparent;
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    font-family: var(--font_m-regular);
+    font-weight: 500;
+    font-size: 16px;
+    height: 100%;
+    padding-inline: 15px;
+}
+
+.subscribe-box form .email::placeholder {
+    color: var(--white-color);
+
+}
+
+.subscribe-box form .btn {
+    width: 124px;
+    background-color: var(--white-color);
+    border: none;
+    font-size: 18px;
+    color: var(--theme-color);
+    height: 100%;
+    font-family: var(--font_p-medium);
+    border-radius: 0;
+}
+
+.subscribe-box form .btn:active {
+    background-color: var(--white-color);
+    color: var(--theme-color);
+}
