@@ -2,34 +2,34 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './selling-products.css'
 import { Button, Heading, ProductCard } from 'components'
-import { imgCollections1, imgCollections2, imgCollections3, imgCollections4, imgCollections5, imgCollections6, } from 'assets/images'
+import { imgCollections1, imgCollections2, imgCollections3, imgCollections4, imgCollections5, imgCollections6, imgProduct1, imgProduct2, imgProduct3, imgProduct4, } from 'assets/images'
 const SellingProducts = () => {
     const trendingData = [
         {
             id: 1,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct1,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 2,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct2,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 3,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct3,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 4,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct4,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         }
@@ -43,7 +43,6 @@ const SellingProducts = () => {
         { id: 5, img: imgCollections5, title: "Oversized T-Shirts", color: "f0bc8c" },
         { id: 6, img: imgCollections6, title: "Half Sleeves T-Shirts", color: "4392f1" }
     ]
-    console.log("trendingData", trendingData)
     return (
         <section className='py-2 pb-md-5  pt-md-2'>
             <Container>
@@ -65,7 +64,7 @@ const SellingProducts = () => {
                             collectionsData?.map((item, i) => {
                                 const { img, title, color } = item;
                                 return (
-                                    <Col lg={4} md={6}>
+                                    <Col lg={4} md={6} key={i}>
                                         <div className="collections-item">
                                             <div className="collections-image" style={{ background: `#${color}` }}>
                                                 <img src={img} alt="" />

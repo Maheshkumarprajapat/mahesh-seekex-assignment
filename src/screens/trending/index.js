@@ -1,3 +1,4 @@
+import { imgProduct1, imgProduct2, imgProduct3, imgProduct4 } from 'assets/images'
 import { Button, Heading, ProductCard } from 'components'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
@@ -7,61 +8,60 @@ const Trending = () => {
         {
             id: 1,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct1,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 2,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct2,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 3,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct3,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 4,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct4,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 5,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct1,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 6,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct2,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 7,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct3,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
         {
             id: 8,
             title: "Men Henley Neck Full Sleeve Red Wine",
-            img: "https://i.imgur.com/7cNRozs.jpg",
+            img: imgProduct4,
             price: "399",
             size: ['s', 'm', 'l', 'xl', 'xxl']
         },
     ]
-    console.log("trendingData", trendingData)
     return (
         <section className='py-4 py-md-5'>
             <Container>

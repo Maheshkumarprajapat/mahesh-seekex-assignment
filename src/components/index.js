@@ -4,6 +4,7 @@ import Heading from './heading'
 import ProductCard from './product-card'
 import ProfileCard from './card/profile-card'
 import Footer from './footer'
+import Preloader from './preloader'
 
 export {
     Header,
@@ -11,5 +12,6 @@ export {
     Heading,
     ProductCard,
     ProfileCard,
-    Footer
+    Footer,
+    Preloader
 }

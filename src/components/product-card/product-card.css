@@ -144,3 +144,10 @@
     border-color: var(--theme-color);
     color: var(--white-color);
 }
+
+@media (max-width:1200px) {
+    .content-image,
+    .product .product-card {
+        height: auto;
+    }
+}

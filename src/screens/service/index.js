@@ -30,7 +30,7 @@ const Service = () => {
             <Container>
                 <Row>
                     {
-                        data.map((item, i) => {
+                        data?.map((item, i) => {
                             const { title, icon } = item
                             return (
                                 <Col lg={3} md={6} key={i}>

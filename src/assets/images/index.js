@@ -45,6 +45,13 @@ import imgAbout3 from "./about3.png";
 import imgAbout4 from "./about4.png";
 import imgAbout5 from "./about5.png";
 
+import imgProduct1 from './product/1.png'
+import imgProduct2 from './product/2.png'
+import imgProduct3 from './product/3.png'
+import imgProduct4 from './product/4.png'
+
+
+
 
 import imgLoose from './loose-bg.png'
 import imgFashion from './fashion-bg.png'
@@ -95,4 +102,8 @@ export {
   imgAbout3,
   imgAbout4,
   imgAbout5,
+  imgProduct1,
+  imgProduct2,
+  imgProduct3,
+  imgProduct4,
 }

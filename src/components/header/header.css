@@ -28,11 +28,12 @@
 /* Header */
 
 header.active {
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 9;
     transform: translateY(-42%);
     transition: transform 0.3s ease-in-out;
+    width: 100%;
 }
 
 header .navbar {

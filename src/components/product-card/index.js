@@ -3,7 +3,6 @@ import './product-card.css'
 import { iconTrendingCart, iconTrendingHeart, iconTrendingShare } from 'assets/images';
 const ProductCard = ({ trendItem }) => {
     const { title, img, price, size } = trendItem;
-    console.log({ size });
     return (
         <div className='product'>
             <div className="product-card">
@@ -22,7 +21,7 @@ const ProductCard = ({ trendItem }) => {
                 <p>₹{price} <span>₹1299</span></p>
                 <ul>
                     {
-                        size.map((item, i) => <li key={i}>{item}</li>)
+                        size?.map((item, i) => <li key={i}>{item}</li>)
                     }
 
                 </ul>

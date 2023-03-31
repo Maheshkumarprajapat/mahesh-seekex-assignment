@@ -24,12 +24,14 @@
 .offer-content h4 {
     font-size: 35px;
     color: #1C1C1C;
+    font-family: var(--font_p-medium);
 }
 
 .offer-content h2 {
     font-size: 80px;
     color: #1C1C1C;
     margin: 20px 0px;
+    font-family: var(--font_p-medium);
 }
 
 .offer-btn {
@@ -45,10 +47,58 @@
     border-radius: 0px;
     text-transform: uppercase;
     transition: all 0.5s ease-in-out;
+    font-family: var(--font_m-medium);
 }
 
 .offer-btn .btn:hover {
     background-color: #1C1C1C;
     border: 1px solid transparent;
     color: #fff;
+}
+
+@media (max-width:1199px) {
+    .offer-image img {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .offer-content h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:767px) {
+    .offer {
+        padding: 50px 0px 20px;
+    }
+
+    .offer-item {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .offer-content h2 {
+        font-size: 50px;
+        margin: 10px 0px;
+    }
+
+    .offer-image img {
+        width: 130px;
+    }
+
+    .offer-content h4 {
+        font-size: 30px;
+    }
+
+    .offer-btn {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:360px) {
+    .offer-content h4 {
+        font-size: 25px;
+    }
 }
