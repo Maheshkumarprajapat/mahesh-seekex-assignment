@@ -43,31 +43,31 @@ const Collections = () => {
                 <section className="about">
                     <Container>
                         <Row>
-                            <Col lg={6} md={6}>
+                            <Col lg={6} md={6} data-aos={"fade-right"} data-aos-duration={1000}>
                                 <div className="about-img">
                                     <img src={imgAbout1} alt="" />
                                 </div>
                             </Col>
 
-                            <Col lg={6} md={6}>
+                            <Col lg={6} md={6} data-aos={"fade-left"} data-aos-duration={1000}>
                                 <div className="about-img">
                                     <img src={imgAbout2} alt="" />
                                 </div>
                             </Col>
 
-                            <Col lg={4} md={6}>
+                            <Col lg={4} md={6} data-aos={"fade-up"} data-aos-duration={1000}>
                                 <div className="about-img">
                                     <img src={imgAbout3} alt="" />
                                 </div>
                             </Col>
 
-                            <Col lg={4} md={6}>
+                            <Col lg={4} md={6} data-aos={"fade-up"} data-aos-duration={2000}>
                                 <div className="about-img">
                                     <img src={imgAbout4} alt="" />
                                 </div>
                             </Col>
 
-                            <Col lg={4} md={6}>
+                            <Col lg={4} md={6} data-aos={"fade-up"} data-aos-duration={3000}>
                                 <div className="about-img">
                                     <img src={imgAbout5} alt="" />
                                 </div>

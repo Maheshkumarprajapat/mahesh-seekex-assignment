@@ -7,7 +7,7 @@ const Offer = () => {
         <section className="offer">
             <Container>
                 <Row>
-                    <Col lg={6} md={6}>
+                    <Col lg={6} md={6} data-aos={"zoom-in-right"} data-aos-duration={2000}>
                         <div className="offer-item diamond">
                             <div className="offer-image">
                                 <img src={iconDiamond} alt="" />
@@ -23,7 +23,7 @@ const Offer = () => {
                         </div>
                     </Col>
 
-                    <Col lg={6} md={6}>
+                    <Col lg={6} md={6} data-aos={"zoom-in-left"} data-aos-duration={2000}>
                         <div className="offer-item discount">
                             <div className="offer-image">
                                 <img src={iconDiscount} alt="" />

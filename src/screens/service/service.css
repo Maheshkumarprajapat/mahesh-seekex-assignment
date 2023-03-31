@@ -26,6 +26,10 @@
 
 }
 
+.service .col-md-6:last-child .service-item {
+    border: none;
+}
+
 .service-item {
     text-align: center;
     border-right: 1px solid var(--pink-color);

@@ -47,7 +47,7 @@ const SellingProducts = () => {
         <section className='py-2 pb-md-5  pt-md-2'>
             <Container>
                 <Heading title='Best Selling Products' />
-                <Row className='gy-4'>
+                <Row className='gy-4' data-aos={"fade-left"} data-aos-duration={2500}>
                     {
                         trendingData?.map((item, i) => (
                             <Col lg={3} md={6} key={i}><ProductCard trendItem={item} /></Col>

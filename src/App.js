@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react'
 import { Header, Footer, Preloader } from 'components';
 import { Banner, Collections, Featured, Offer, Products, SellingProducts, Service, Subscribe, Trending } from 'screens';
 import { imgFashion, imgLoose } from 'assets/images';
-
+import AOS from "aos";
 const App = () => {
   let [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -10,14 +10,16 @@ const App = () => {
     setTimeout(() => {
       setLoading(false)
     }, 4000);
+    AOS.init();
+    AOS.refresh();
   }, []);
   return (
     <Fragment>
 
-      {
+      {/* {
         loading ?
           <Preloader />
-          :
+          : */}
           <>
             <Header />
             <Banner />
@@ -37,7 +39,7 @@ const App = () => {
             <Subscribe />
             <Footer />
           </>
-      }
+      {/* } */}
 
     </Fragment>
   )
