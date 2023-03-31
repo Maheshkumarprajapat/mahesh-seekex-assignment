@@ -26,6 +26,7 @@
   font-family: 'PlayfairDisplay-Medium';
   src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-Medium.ttf');
 }
+
 @font-face {
   font-family: 'PlayfairDisplay-SemiBold';
   src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf');
@@ -52,7 +53,8 @@
   background-color: var(--theme-color);
   color: var(--white-color);
 }
-html{
+
+html {
   overflow-x: hidden;
 }
 
@@ -126,4 +128,12 @@ p {
   width: 460px;
 }
 
-/*  */
+.bg-img {
+  min-height: 40vh;
+}
+
+.bg-img img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

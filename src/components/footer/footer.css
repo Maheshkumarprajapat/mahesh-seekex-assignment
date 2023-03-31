@@ -56,8 +56,8 @@ footer .footer-box {
 
 .footer-services ul li a {
     font-size: 14px;
-    color: var(--theme-100--theme-100);
-    text-transform: uppercase;
+    color: var(--theme-100);
+    text-transform: capitalize;
     text-decoration: none;
     position: relative;
     transition: all 0.5s;

@@ -39,7 +39,6 @@ const Header = () => {
         <TopHeader />
         <Navbar>
           <Container>
-            {/* <Navbar.Brand href="#home" className="logo d-sm-none">Logo Here</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav>

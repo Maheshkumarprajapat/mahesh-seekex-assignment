@@ -1,13 +1,19 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import ProfileCard from 'components/card/profile-card'
+import './collections.css'
+import { ProfileCard } from 'components'
 import {
     imgCard1,
     imgCard2,
     imgCard3,
     imgCard4,
     imgCard5,
-    imgCard6
+    imgCard6,
+    imgAbout1,
+    imgAbout2,
+    imgAbout3,
+    imgAbout4,
+    imgAbout5
 } from 'assets/images'
 
 const Collections = () => {
@@ -20,7 +26,7 @@ const Collections = () => {
         { id: 6, img: imgCard6, title: "Full Sleeves T-Shirts", color: "D9F1DE" }
     ]
     return (
-        <section className='py-4 py-md-5'>
+        <section className='collections'>
             <Container>
                 <Row className='gap-4 gap-xxl-0'>
                     {
@@ -34,6 +40,42 @@ const Collections = () => {
                     }
 
                 </Row>
+                <section className="about">
+                    <Container>
+                        <Row>
+                            <Col lg={6} md={6}>
+                                <div className="about-img">
+                                    <img src={imgAbout1} alt="" />
+                                </div>
+                            </Col>
+
+                            <Col lg={6} md={6}>
+                                <div className="about-img">
+                                    <img src={imgAbout2} alt="" />
+                                </div>
+                            </Col>
+
+                            <Col lg={4} md={6}>
+                                <div className="about-img">
+                                    <img src={imgAbout3} alt="" />
+                                </div>
+                            </Col>
+
+                            <Col lg={4} md={6}>
+                                <div className="about-img">
+                                    <img src={imgAbout4} alt="" />
+                                </div>
+                            </Col>
+
+                            <Col lg={4} md={6}>
+                                <div className="about-img">
+                                    <img src={imgAbout5} alt="" />
+                                </div>
+                            </Col>
+
+                        </Row>
+                    </Container>
+                </section>
             </Container>
         </section>
     )

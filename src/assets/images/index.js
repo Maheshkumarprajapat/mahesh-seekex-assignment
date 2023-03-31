@@ -24,7 +24,6 @@ import iconHelpline from "./icons/helpline.svg";
 import iconDiamond from "./icons/diamond.svg";
 import iconDiscount from "./icons/discount.svg";
 
-// import Collections1 from "./collections1.png";
 
 
 // Globals Images
@@ -34,6 +33,21 @@ import imgCard3 from './cards/3.png'
 import imgCard4 from './cards/4.png'
 import imgCard5 from './cards/5.png'
 import imgCard6 from './cards/6.png'
+import imgCollections1 from "./collections/1.png";
+import imgCollections2 from "./collections/2.png";
+import imgCollections3 from "./collections/3.png";
+import imgCollections4 from "./collections/4.png";
+import imgCollections5 from "./collections/5.png";
+import imgCollections6 from "./collections/6.png";
+import imgAbout1 from "./about1.png";
+import imgAbout2 from "./about2.png";
+import imgAbout3 from "./about3.png";
+import imgAbout4 from "./about4.png";
+import imgAbout5 from "./about5.png";
+
+
+import imgLoose from './loose-bg.png'
+import imgFashion from './fashion-bg.png'
 
 
 export {
@@ -67,5 +81,18 @@ export {
   imgCard3,
   imgCard4,
   imgCard5,
-  imgCard6
+  imgCard6,
+  imgLoose,
+  imgFashion,
+  imgCollections1,
+  imgCollections2,
+  imgCollections3,
+  imgCollections4,
+  imgCollections5,
+  imgCollections6,
+  imgAbout1,
+  imgAbout2,
+  imgAbout3,
+  imgAbout4,
+  imgAbout5,
 }

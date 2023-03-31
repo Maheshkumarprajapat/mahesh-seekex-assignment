@@ -35,7 +35,7 @@ const Products = () => {
     ]
     console.log("trendingData", trendingData)
     return (
-        <section className='py-2 pb-md-5  pt-md-2'>
+        <section className='py-4 py-md-5'>
             <Container>
                 <Heading title='New Products' />
                 <Row className='gy-4'>

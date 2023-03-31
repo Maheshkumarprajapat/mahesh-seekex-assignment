@@ -10,27 +10,32 @@ export const socialIcons = [
     {
         id: 1,
         icon: iconFacebook,
-        path: "facebook.com"
+        path: "facebook.com",
+        title:"facebook"
     },
     {
         id: 2,
         icon: iconTwitter,
-        path: "twitter.com"
+        path: "twitter.com",
+        title:"twitter"
     },
     {
         id: 3,
         icon: iconInstagram,
-        path: "instagram.com"
+        path: "instagram.com",
+        title:"instagram"
     },
     {
         id: 4,
         icon: iconLinkedin,
-        path: "linkedin.com/feed"
+        path: "linkedin.com/feed",
+        title:"linkedin"
     },
     {
         id: 5,
         icon: iconPinterest,
-        path: "pinterest.com"
+        path: "pinterest.com",
+        title:"pinterest"
     },
 
 ]

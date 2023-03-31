@@ -1,0 +1,17 @@
+.collections {
+    padding: 50px 0px 0;
+
+}
+
+.about {
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-bottom: 20px;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+}

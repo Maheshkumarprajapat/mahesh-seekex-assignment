@@ -1,17 +1,8 @@
-import {
-  iconEmail,
-  iconFacebook,
-  iconInstagram,
-  iconLinkedin,
-  iconMap,
-  iconMobile,
-  iconPinterest,
-  iconTwitter,
-} from "assets/images";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./footer.css";
-import { socialIcons } from "./footerConfig";
+import { iconEmail, iconMap, iconMobile, } from "assets/images";
+import { policies, shopping, socialIcons } from "./footerConfig";
 
 const Footer = () => {
 
@@ -35,17 +26,16 @@ const Footer = () => {
                     <ul>
                       {
                         socialIcons.map((item, index) => {
-                          const { icon, path } = item;
+                          const { icon, path, title } = item;
                           return (
                             <li key={index}>
                               <a href={`https://www.${path}`}>
-                                <img src={icon} />{" "}
+                                <img src={icon} alt={title} />
                               </a>
                             </li>
                           )
                         })
                       }
-
                     </ul>
                   </div>
                 </div>
@@ -55,21 +45,16 @@ const Footer = () => {
                 <div className="footer-services">
                   <h3>ONLINE SHOPPING</h3>
                   <ul>
-                    <li>
-                      <a href="">Men's T-Shirts</a>
-                    </li>
-                    <li>
-                      <a href="">Women's Wear</a>
-                    </li>
-                    <li>
-                      <a href="">Winter Collections</a>
-                    </li>
-                    <li>
-                      <a href="">Hooded T-Shirts</a>
-                    </li>
-                    <li>
-                      <a href="">Streetwear Collections</a>
-                    </li>
+                    {
+                      shopping.map((item, index) => {
+                        const { title } = item;
+                        return (
+                          <li key={index}>
+                            <a href="/">{title}</a>
+                          </li>
+                        )
+                      })
+                    }
                   </ul>
                 </div>
               </Col>
@@ -78,21 +63,17 @@ const Footer = () => {
                 <div className="footer-services">
                   <h3>CUSTOMER POLICIES</h3>
                   <ul>
-                    <li>
-                      <a href="">About Us</a>
-                    </li>
-                    <li>
-                      <a href="">Terms & Conditions</a>
-                    </li>
-                    <li>
-                      <a href="">Shipping & Returns Policy</a>
-                    </li>
-                    <li>
-                      <a href="">Cancellation & Refund Policy</a>
-                    </li>
-                    <li>
-                      <a href="">Contact Us</a>
-                    </li>
+                    {
+                      policies.map((item, index) => {
+                        const { title } = item;
+                        return (
+                          <li key={index}>
+                            <a href="/">{title}</a>
+                          </li>
+                        )
+                      })
+                    }
+
                   </ul>
                 </div>
               </Col>
@@ -104,20 +85,20 @@ const Footer = () => {
                     <li>
                       <a href="/" className="contact">
                         {" "}
-                        <img src={iconMap} /> Lorem Ipsum is simply dummy text
+                        <img src={iconMap} alt='map' /> Lorem Ipsum is simply dummy text
                         of the printing and typesetting industry.{" "}
                       </a>
                     </li>
                     <li>
                       <a href="/" className="contact">
                         {" "}
-                        <img src={iconMobile} /> Call Us: 1234567890
+                        <img src={iconMobile} alt='mobile' /> Call Us: 1234567890
                       </a>
                     </li>
                     <li>
                       <a href="/" className="contact">
                         {" "}
-                        <img src={iconEmail} /> Email Us: mailto:info@yourmail.com
+                        <img src={iconEmail} alt='email' /> Email Us: mailto:info@yourmail.com
                       </a>
                     </li>
                   </ul>
