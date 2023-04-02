@@ -42,7 +42,7 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav>
-                <Nav.Link href="#home" onClick={handleSideBar}>
+                <Nav.Link href="#home" className='p-0' onClick={handleSideBar}>
                   <img src={iconMenu} alt="menu" />
                 </Nav.Link>
                 <Nav.Link className="logo d-sm-block" href="#">

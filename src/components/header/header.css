@@ -27,13 +27,16 @@
 
 /* Header */
 
-header.active {
+header {
     position: fixed;
     top: 0;
     z-index: 99;
-    transform: translateY(-42%);
     transition: transform 0.3s ease-in-out;
     width: 100%;
+}
+
+header.active {
+    transform: translateY(-42%);
 }
 
 header .navbar {
@@ -142,7 +145,7 @@ header .search-box.active input {
     top: 0;
     left: 0;
     width: 400px;
-    z-index: 9;
+    z-index: 999;
     transform: translateX(-100%);
     transition: transform 0.3s;
 

@@ -54,7 +54,7 @@
   color: var(--white-color);
 }
 
-html {
+body,html {
   overflow-x: hidden;
 }
 
