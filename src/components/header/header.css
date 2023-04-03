@@ -28,14 +28,15 @@
 /* Header */
 
 header {
-    position: fixed;
-    top: 0;
+    
     z-index: 99;
     transition: transform 0.3s ease-in-out;
     width: 100%;
 }
 
 header.active {
+    position: fixed;
+    top: 0;
     transform: translateY(-42%);
 }
 
